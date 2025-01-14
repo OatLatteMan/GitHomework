@@ -45,11 +45,20 @@ class Morse:
 
         return self.new_str
 
-    def decode(self, morse):
-        pass
+    def decode(self, text: str):
+        self.text = text
+        self.new_text = ''
+
+        self.text = self.text.split(" ")
+        for i in self.text:
+            if i == '':
+                i = ' '
+            self.new_text += alphabet_reverse[i]
+
+        return self.new_text
 
 morse = Morse()
-print(morse.encode('SOME TEXT HERE'))
+# print(morse.encode('SOME TEXT HERE'))
 
-# print(morse.decode('... --- -- .   - . -..- -   .... . .-. .'))
+print(morse.decode('... --- -- .   - . -..- -   .... . .-. .'))
 # print(morse.decode('-- .- .-. .-. -.--   -.-. .... .-. .. ... - -- .- ...   .- -. -..   .... .- .--. .--. -.--   -. . .--   -.-- . .- .-.'))
