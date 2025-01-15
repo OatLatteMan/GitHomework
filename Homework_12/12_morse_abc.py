@@ -61,4 +61,5 @@ morse = Morse()
 # print(morse.encode('SOME TEXT HERE'))
 
 print(morse.decode('... --- -- .   - . -..- -   .... . .-. .'))
+print(morse.decode('... --- ...'))
 # print(morse.decode('-- .- .-. .-. -.--   -.-. .... .-. .. ... - -- .- ...   .- -. -..   .... .- .--. .--. -.--   -. . .--   -.-- . .- .-.'))
