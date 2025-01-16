@@ -7,7 +7,11 @@ def get_upper_chars(text: str):
         if i == x:
             uppers += i
     if uppers:
-        return True
+        return uppers
+    else:
+        return False
+
+# print(get_upper_chars('LoremIpsum'))
 
 # def get_upper_chars(text: str):
 #     uppers = ''

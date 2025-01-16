@@ -4,11 +4,11 @@ import h15_get_upper_chars as chars
 import unittest
 
 class Test_get_upper_chars(unittest.TestCase):
-    def get_upper_chars_text_with_uppers(self):
+    def test_get_upper_chars_text_with_uppers(self):
         result = chars.get_upper_chars('LoremIpsum')
-        self.assertTrue(result)
+        self.assertEqual(result, 'LI')
 
-    def get_upper_chars_text_without_uppers(self):
+    def test_get_upper_chars_text_without_uppers(self):
         result = chars.get_upper_chars('loremipsum')
         self.assertFalse(result)
 
