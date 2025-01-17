@@ -1,7 +1,5 @@
 # kosik_16_app.py
 
-# from kosik_16 import An_Item, Shopping_Cart
-# import kosik_16
 from kosik_16 import *
 
 shop_cart = Shopping_Cart("For Thursday's")
@@ -19,6 +17,9 @@ while True:
     if command == 'remove':
         remove_an_item = int(input('An item to remove: '))
         shop_cart.remove_item_by_id(remove_an_item)
+
+    if command == 'count':
+        print(shop_cart.count_total_price())
 
     shop_cart.show()
 
