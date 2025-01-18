@@ -74,3 +74,12 @@ shop_cart1.add_item(item1)
 shop_cart1.add_item(item2)
 shop_cart1.add_item(item3)
 shop_cart1.add_item(item4)
+
+# shop_cart1.show()
+# print('--------------------------------')
+
+# shop_cart1.remove_item(item4)
+# shop_cart1.remove_item_by_id(3)
+
+# shop_cart1.show()
+
