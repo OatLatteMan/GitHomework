@@ -1,6 +1,6 @@
 # kosik_16_app.py
 
-from kosik_16 import *
+from kosik_16 import An_Item, Shopping_Cart
 
 shop_cart = Shopping_Cart("For Thursday's")
 
