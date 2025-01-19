@@ -75,7 +75,9 @@ shop_cart1.add_item(item2)
 shop_cart1.add_item(item3)
 shop_cart1.add_item(item4)
 
-# shop_cart1.show()
+
+
+shop_cart1.show()
 # print('--------------------------------')
 
 # shop_cart1.remove_item(item4)
@@ -83,3 +85,4 @@ shop_cart1.add_item(item4)
 
 # shop_cart1.show()
 
+""""""
